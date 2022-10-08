@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+.everything{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-XX-YT4Uvm6HwXZFA2E8QZ_JYBMMVByhwkQ&usqp=CAU');
+}
+.header {
+    position: relative;
+    margin-top: -15px;
+}
+.logo {
+    height: 90px;
+    margin-left: -50px;
+    margin-top: 5px;
+    position: relative;
+}
+.substitle {
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    text-indent: -10px;
+}
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    margin-top: -40px;
+    font-weight: bold;
+    max-width: 800px;
+    margin-left: 225px;
+}
+.form {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 410px;
+    border: solid black 3px;
+    border-radius: 30px;
+    height: 250px;
+    width: 400px;
+    box-shadow: -2px 10px 40px grey ;
+}  
+.label1 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 178px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+.label2 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 177px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+.inputname {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 115px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inputemail {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 40px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subscribe {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 165px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subscribe:hover {
+    background: black;
+    color: white;
+}
+.response {
+    font-size: 25px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 150px;
+}
+.complex {
+    font-weight: bolder;
+}
+form .indicates-required {
+    position: absolute;
+    color: white;
+    font-size: 0.3em;
+    margin-top: 100px;
+    text-align: center;
+}
+form input + .mce_inline_error {
+    display: inline-block;
+    font-size: 0.3em;
+    position: relative;
+}
+form input + .mce_inline_error:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #6B0505;
+    position: absolute;
+    top: 10px;
+}
+form .mc-field-group {
+    margin-bottom: 20px;
+
+}
+.txtwhole {
+    margin-left: -20px;
+}
