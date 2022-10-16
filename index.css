@@ -18,7 +18,7 @@
     margin-top: 100px;
     text-align: center;
     font-size: 50px;
-    text-indent: -10px;
+    
 }
 .description {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -28,12 +28,14 @@
     margin-top: -40px;
     font-weight: bold;
     max-width: 800px;
-    margin-left: 225px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .form {
     position: relative;
-    margin-top: 50px;
-    margin-left: 410px;
+    margin-top: 6.5%;
+    left: 50%;
+    transform: translateX(-50%);
     border: solid black 3px;
     border-radius: 30px;
     height: 250px;
